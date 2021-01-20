@@ -1,0 +1,29 @@
+<Program Name="test" IsMainView="true">
+<FullName>test</FullName>
+<ExpiryDate/>
+<Description><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><B><U>Screener</U></B></P>
+<OL>
+  <LI>MA(2)&nbsp;crossed above MA(5) 
+  <LI>Stochastic Slow %K above %D</LI></OL>
+<P></P>
+<P><B><U>Signals</U></B></P>
+<P><I>Buy (Green arrow)</I></P>
+<OL>
+  <LI>MA(2)&nbsp;crossed above MA(5) 
+  <LI>Stochastic Slow %K above %D</LI></OL>
+<P><EM>Sell (Red arrow)</EM></P>
+<OL>
+  <LI>MA(2) crossed below MA(5) 
+  <LI>Stochastic Slow %K&nbsp;below %D</LI></OL>
+<P><EM>Confirmation&nbsp;(Blue triangle)</EM></P>
+<OL>
+  <LI>MACD(12,26) diff line crossed above the MACD(12,26) signal line 
+  <LI>Parabolic SAR above close price</LI></OL></BODY></HTML>]]></Description>
+<Code IsEnabled="false">VLY2J7q+KTdyaXsKAiPFPlSzMlCnRm+HCohp/XbqCagD1ue2ZzcRaY+77jf5s+IqObGeSyWsODq58eAXaLJLwccPeFJnooVkm/Ia93/ZbgZTVEFKTXebHtwSQ1vKBoT1ak608C5yh3NaNjW2/FS4wFiyPaiuvFQ6y+cexEwVxsqq9O/DaxWzTGrEhp2QD9HzHiH2qaersOqDs3t5CgHcFM6GbaLcvVQYUN2pE8b0Cf4ishf368LVxoukl1QsJfoVIk9P/EW0yYlWMSk1M3vjuIPLlzYkWn+8Qyh8b3W1UCINwqJ0mH1GLZ/f0ESp3sMg0C/+S0N5gAIZlSW/3T+7rk0spjQ21tsNAa3QWvZst5rGHSDYpmxQXtOr6tomCe5SZCxBaq46WVqQwktBhKEuQUBbswj3sgbj+ypxnHV9ifqURrQFRc9nviq+O3tNR/WUhMESM+otdzolkpGIquWzSRE1zDKCJt4/aNwoCldQdpePR7fsanXXM56HsKuNN0CFcX82REKOvq/k+3/oZneAARpxWy20GKDCsER020gDVcduPsWnXyI39N2FlbEcg0+qSmABOikt9FQN27UfmYe+e2vms6wrLMZMNlOJ/zYyucIb3GdEu+8sLhZBm3T2SQw2gIEivAKumMJ3eGe1sJhuWAs4jTyRi9cUW3G1Sez0VT5coFc+4CRPSYWNjUa5wCCufyM3eGk8sL/QPs9hOzXb8LEVQivi/sQ/g6Pj9Rwk0quinRoFKc59ZykOSnYaH0fUtFMTCX5pX6NU0Q+WrL+Wn8TeMiDMQCX9I1nXCSbtnEvBWvsTYDSuKrQh4vPZLyVeECyTa2L2h6CvISsVYlk4F1NSp1AKJENWo/Y0t3mqx+g6urTW6rtW9d3/vYTvBRJyZFo3C7NSzqul0qFYs7jZ7zzvNcE5F3WdVcQYQ11jRtcBp0VBqbm98q5I6nKVhzpMQINeRJdvekVl1w==</Code>
+<Params/>
+</Program>

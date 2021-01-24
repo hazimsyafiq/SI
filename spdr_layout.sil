@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings CompactMode="1" Ver="6">
+	<PaneSetting>
+		<ChildPane PaneType="10" PaneID="109000" PaneOptions="1538" Title="Channel Navigator"/>
+		<ChildPane PaneType="9" PaneID="109001" PaneOptions="1538" AttCode="1111.MY" Title="News">
+			<NewsCtrl DisabledSources="">
+				<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" StaticWidth="60" AutoWidth="100" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" SortIncreasing="0" StaticWidth="60" AutoWidth="100" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="241" AutoWidth="400" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Visible="0" StaticWidth="150" AutoWidth="150" Expanded="0"/>
+						<SortOrder Count="1" Column0="1" InternalName0=""/>
+					</Columns>
+					<Header ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</NewsCtrl>
+		</ChildPane>
+		<ChildPane PaneType="15" PaneID="109002" PaneOptions="34306" ShowConfigBar="1" ConfigBarCloseable="0" ToggleBtn="1" AttCode="3689.MY" Title="Stock Frame" PaneObservers="109002.109000,">
+			<PaneSetting ContainerStyle="1">
+				<ChildPane PaneType="0" PaneID="109000" PaneOptions="27658" AttCode="3689.MY" PaneObservers="109002,.109001,.109002,.109003,.109004,.109005,">
+					<RecentCode Val="3689.MY"/>
+					<RecentCode Val="5398.MY"/>
+					<RecentCode Val="5115.MY"/>
+					<RecentCode Val="5257.MY"/>
+					<RecentCode Val="7187.MY"/>
+					<RecentCode Val="1147.MY"/>
+					<RecentCode Val="4235.MY"/>
+					<RecentCode Val="5125.MY"/>
+					<RecentCode Val="5181.MY"/>
+					<RecentCode Val="7080.MY"/>
+				</ChildPane>
+				<ChildPane PaneType="1" PaneID="109001" PaneOptions="17418" AttCode="3689.MY"/>
+				<ChildPane PaneType="3" PaneID="109002" PaneOptions="1026" AttCode="3689.MY">
+					<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+						<Columns>
+							<Column ItemIndex="0" InternalName="" StaticWidth="73" AutoWidth="55" Expanded="0"/>
+							<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="40" AutoWidth="30" Expanded="0"/>
+							<Column ItemIndex="2" InternalName="" Alignment="2" StaticWidth="67" AutoWidth="50" Expanded="0"/>
+							<Column ItemIndex="3" InternalName="" Alignment="2" StaticWidth="54" AutoWidth="40" Expanded="0"/>
+							<Column ItemIndex="4" InternalName="" Alignment="2" StaticWidth="68" AutoWidth="50" Expanded="0"/>
+						</Columns>
+						<Header ShowItemsInGroups="0"/>
+					</ReportCtrl>
+				</ChildPane>
+				<ChildPane PaneType="5" PaneID="109003" PaneOptions="1026" AttCode="3689.MY"/>
+				<ChildPane PaneType="6" PaneID="109004" PaneOptions="1026" AttCode="3689.MY"/>
+				<ChildPane PaneType="7" PaneID="109005" PaneOptions="1026" Duration="1 Day" View="5MINUTE" Scale="Linear" Theme="BlackGreen" TemplateName="Template" StudiesName="" Symbol="3689.MY" AttCode="3689.MY">
+					<SiChartWin BullColor="4278222848" BearColor="4294901760" IndecisionColor="4294967040">
+						<Panel HeightPct="1000" Name="Main" Index="0">
+							<Formula Name="MAIN">
+								<FormulaData Name="MN" ValueMode="2"/>
+							</Formula>
+						</Panel>
+						<Panel HeightPct="400" Name="Ind_VOL" Index="0" Closeable="1">
+							<Formula Name="VOL(5)"/>
+						</Panel>
+					</SiChartWin>
+					<CommandBars Schema="42">
+						<Layout Visible="0">
+							<DockState Version="42" ScreenSize="1536, 864" Count="3">
+								<BarInfo0 BarId="24" Visible="0" MRUWidth="32767"/>
+								<BarInfo1 BarId="20" Visible="0" MRUWidth="32767"/>
+								<BarInfo2 BarId="25" Visible="0" MRUWidth="32767" PointPos="300, 0" MRUDockPos="420, 0, 592, 26"/>
+							</DockState>
+							<DockBars>
+								<DockBar0 Count="6" Id1="20" Id3="25" Id4="24"/>
+							</DockBars>
+						</Layout>
+					</CommandBars>
+				</ChildPane>
+			</PaneSetting>
+			<PaneLayout>
+				<Summary Panes="15" TopContainer="7" Client="9"/>
+				<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="F&amp;N [S]--Caption\n\n" ID="109000" Options="27658" DockingHolder="10" LastHolder="10" MinTrackX="33" MinTrackY="33" MaxTrackX="2560" MaxTrackY="33"/>
+				<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="F&amp;N [S]--Quick View\n\n" ID="109001" Options="17418" DockingHolder="11" LastHolder="11" MinTrackX="1" MinTrackY="36" MaxTrackX="2048" MaxTrackY="36"/>
+				<Pane-3 Type="0" DockingCX="230" DockingCY="260" Title="F&amp;N [S]--Time &amp; Sales\n\n" ID="109002" Options="1026" DockingHolder="12" LastHolder="12"/>
+				<Pane-4 Type="0" DockingCX="420" DockingCY="280" Title="F&amp;N [S]--Volume Distribution Chart\n\n" ID="109003" Options="1026" DockingHolder="13" LastHolder="13"/>
+				<Pane-5 Type="0" DockingCX="420" DockingCY="280" Title="F&amp;N [S]--Trade Summary Chart\n\n" ID="109004" Options="1026" DockingHolder="14" LastHolder="14"/>
+				<Pane-6 Type="0" DockingCX="420" DockingCY="280" Title="F&amp;N [S] [5 Minute]--Intraday Chart\n\n" ID="109005" Options="1026" DockingHolder="15" LastHolder="15"/>
+				<Pane-7 Type="2" Panes="7" Pane-1="8" Pane-2="10" Pane-3="11" Pane-4="12" Pane-5="13" Pane-6="14" Pane-7="15"/>
+				<Pane-8 Type="2" Horiz="1" Panes="1" Pane-1="9"/>
+				<Pane-9 Type="4"/>
+				<Pane-10 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+				<Pane-11 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+				<Pane-12 Type="1" DockingCX="230" DockingCY="260" Panes="1" Selected="3" Pane-1="3"/>
+				<Pane-13 Type="1" DockingCX="420" DockingCY="280" Panes="1" Selected="4" Pane-1="4"/>
+				<Pane-14 Type="1" DockingCX="420" DockingCY="280" Panes="1" Selected="5" Pane-1="5"/>
+				<Pane-15 Type="1" DockingCX="420" DockingCY="280" Panes="1" Selected="6" Pane-1="6"/>
+			</PaneLayout>
+		</ChildPane>
+		<ChildPane PaneType="29" PaneID="109005" PaneOptions="1026" Channel="_TOP_G_STOCKS.MY" AttCode="[bs] Top Gainers Stocks">
+			<MarketTickerCtrl ShowSignificantDeals3="0" ShowSignificantDeals4="0" MarketSelected="1">
+				<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" SortIncreasing="0" StaticWidth="72" AutoWidth="69" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="93" AutoWidth="88" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Alignment="1" StaticWidth="40" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="2" StaticWidth="67" AutoWidth="63" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="56" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" InternalName0=""/>
+					</Columns>
+					<Header ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MarketTickerCtrl>
+		</ChildPane>
+		<ChildPane PaneType="29" PaneID="109007" PaneOptions="1026" AttCode="All Stocks">
+			<MarketTickerCtrl ShowSignificantDeals3="0" ShowSignificantDeals4="0" MarketSelected="1">
+				<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" SortIncreasing="0" StaticWidth="84" AutoWidth="69" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="108" AutoWidth="88" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Alignment="1" StaticWidth="46" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="2" StaticWidth="78" AutoWidth="63" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="56" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" InternalName0=""/>
+					</Columns>
+					<Header ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MarketTickerCtrl>
+		</ChildPane>
+		<ChildPane PaneType="29" PaneID="109020" PaneOptions="1026" Channel="_MarketScanner.MY" AttCode="[bs] Market Scanner">
+			<MarketTickerCtrl ShowSignificantDeals3="0" ShowSignificantDeals4="0" MarketSelected="1">
+				<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" SortIncreasing="0" StaticWidth="85" AutoWidth="69" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="108" AutoWidth="88" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Alignment="1" StaticWidth="47" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="2" StaticWidth="78" AutoWidth="63" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="56" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" InternalName0=""/>
+					</Columns>
+					<Header ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MarketTickerCtrl>
+		</ChildPane>
+		<ChildPane PaneType="29" PaneID="109022" PaneOptions="1026" Channel="_TOP_G_WARRANTS.MY" AttCode="[bs] Top Gainers Warrants">
+			<MarketTickerCtrl ShowSignificantDeals3="0" ShowSignificantDeals4="0" MarketSelected="1">
+				<ReportCtrl HScrollBar="1" Schema="42" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" SortIncreasing="0" StaticWidth="85" AutoWidth="69" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="108" AutoWidth="88" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Alignment="1" StaticWidth="46" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="2" StaticWidth="78" AutoWidth="63" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="56" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" InternalName0=""/>
+					</Columns>
+					<Header ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MarketTickerCtrl>
+		</ChildPane>
+	</PaneSetting>
+	<PaneLayout>
+		<Summary Panes="37" TopContainer="20" Client="29"/>
+		<Pane-1 Type="0" DockingCX="230" DockingCY="400" Title="Channel Navigator\n\n" ID="109000" Options="1538" DockingHolder="26" FloatingHolder="19" LastHolder="26"/>
+		<Pane-2 Type="0" DockingCX="400" DockingCY="320" Title="News\n\n" ID="109001" Options="1538" DockingHolder="31" FloatingHolder="10" LastHolder="10"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Stock Frame\n\n" ID="109002" Options="34306" DockingHolder="30" FloatingHolder="34" LastHolder="30"/>
+		<Pane-4 Type="0" DockingCX="450" DockingCY="575" Title="[bs] Top Gainers Stocks--Intraday Market Ticker\n\n" ID="109005" Options="1026" DockingHolder="26" FloatingHolder="19" LastHolder="26"/>
+		<Pane-5 Type="0" DockingCX="450" DockingCY="575" Title="All Stocks--Intraday Market Ticker\n\n" ID="109007" Options="1026" DockingHolder="25" FloatingHolder="37" LastHolder="25"/>
+		<Pane-6 Type="0" DockingCX="450" DockingCY="575" Title="[bs] Market Scanner--Intraday Market Ticker\n\n" ID="109020" Options="1026" DockingHolder="28" FloatingHolder="13" LastHolder="28"/>
+		<Pane-7 Type="0" DockingCX="450" DockingCY="575" Title="[bs] Top Gainers Warrants--Intraday Market Ticker\n\n" ID="109022" Options="1026" DockingHolder="27" FloatingHolder="16" LastHolder="27"/>
+		<Pane-8 Type="3" WindowRectTopPos="664" WindowRectBottomPos="1004" WindowRectLeftPos="0" WindowRectRightPos="400" ExpandedHeight="0" TopContaner="9" FramePos="LAAAAAAAAAABAAAA/////////////////////wAAAACYAgAAkAEAAOwDAAA="/>
+		<Pane-9 Type="2" DockingCX="400" DockingCY="219" Horiz="1" Panes="1" Pane-1="10"/>
+		<Pane-10 Type="1" DockingCX="400" DockingCY="219" Panes="0"/>
+		<Pane-11 Type="3" WindowRectTopPos="520" WindowRectBottomPos="966" WindowRectLeftPos="1117" WindowRectRightPos="1505" ExpandedHeight="0" TopContaner="12" FramePos="LAAAAAAAAAABAAAA/////////////////////5wEAADeAAAAIAYAAL0DAAA="/>
+		<Pane-12 Type="2" DockingCX="450" DockingCY="575" Horiz="1" Panes="1" Pane-1="13"/>
+		<Pane-13 Type="1" DockingCX="450" DockingCY="575" Panes="0"/>
+		<Pane-14 Type="3" WindowRectTopPos="450" WindowRectBottomPos="894" WindowRectLeftPos="771" WindowRectRightPos="1180" ExpandedHeight="0" TopContaner="15" FramePos="LAAAAAAAAAABAAAA/////////////////////3oBAADeAAAAEwMAAMADAAA="/>
+		<Pane-15 Type="2" DockingCX="450" DockingCY="575" Horiz="1" Panes="1" Pane-1="16"/>
+		<Pane-16 Type="1" DockingCX="450" DockingCY="575" Panes="0"/>
+		<Pane-17 Type="3" WindowRectTopPos="420" WindowRectBottomPos="867" WindowRectLeftPos="412" WindowRectRightPos="771" ExpandedHeight="0" TopContaner="18"/>
+		<Pane-18 Type="2" DockingCX="390" DockingCY="400" Horiz="1" Panes="1" Pane-1="19"/>
+		<Pane-19 Type="1" DockingCX="390" DockingCY="400" Panes="0"/>
+		<Pane-20 Type="2" DockingCX="1440" Panes="1" Pane-1="21"/>
+		<Pane-21 Type="2" DockingCX="1592" Panes="2" Pane-1="22" Pane-2="31"/>
+		<Pane-22 Type="2" DockingCY="654" Horiz="1" Panes="2" Pane-1="23" Pane-2="30"/>
+		<Pane-23 Type="2" DockingCX="1592" Panes="2" Pane-1="24" Pane-2="29"/>
+		<Pane-24 Type="2" DockingCX="450" DockingCY="575" Horiz="1" Panes="4" Pane-1="25" Pane-2="26" Pane-3="27" Pane-4="28"/>
+		<Pane-25 Type="1" DockingCX="450" DockingCY="575" Panes="1" Selected="5" Pane-1="5"/>
+		<Pane-26 Type="1" DockingCX="390" DockingCY="400" Panes="2" Selected="4" Pane-1="1" Pane-2="4"/>
+		<Pane-27 Type="1" DockingCX="450" DockingCY="575" Panes="1" Selected="7" Pane-1="7"/>
+		<Pane-28 Type="1" DockingCX="450" DockingCY="575" Panes="1" Selected="6" Pane-1="6"/>
+		<Pane-29 Type="4" DockingCY="298"/>
+		<Pane-30 Type="1" DockingCX="323" DockingCY="120" Panes="1" Selected="3" Pane-1="3"/>
+		<Pane-31 Type="1" DockingCX="400" DockingCY="219" Panes="0"/>
+		<Pane-32 Type="3" WindowRectTopPos="191" WindowRectBottomPos="1241" WindowRectLeftPos="1505" WindowRectRightPos="1893" ExpandedHeight="0" TopContaner="33"/>
+		<Pane-33 Type="2" DockingCX="323" DockingCY="120" Horiz="1" Panes="1" Pane-1="34"/>
+		<Pane-34 Type="1" DockingCX="323" DockingCY="120" Panes="0"/>
+		<Pane-35 Type="3" WindowRectTopPos="555" WindowRectBottomPos="998" WindowRectLeftPos="0" WindowRectRightPos="393" ExpandedHeight="0" TopContaner="36"/>
+		<Pane-36 Type="2" DockingCX="450" DockingCY="575" Horiz="1" Panes="1" Pane-1="37"/>
+		<Pane-37 Type="1" DockingCX="450" DockingCY="575" Panes="0"/>
+	</PaneLayout>
+	<CommandBars Schema="42">
+		<Layout>
+			<DockState Version="42" ScreenSize="1536, 864" Count="8">
+				<BarInfo0 BarId="1" MRUWidth="32767" MRUDockPos="-3, 0, 1532, 27" MRUFloatPos="2482, 59"/>
+				<BarInfo1 BarId="20" MRUWidth="32767" PointPos="0, 34"/>
+				<BarInfo2 BarId="23" MRUWidth="32767" PointPos="400, 34" MRUDockPos="248, 23, 496, 48"/>
+				<BarInfo3 BarId="21" MRUWidth="32767" PointPos="792, 34" MRUDockPos="526, 23, 804, 48"/>
+				<BarInfo4 BarId="22" MRUWidth="32767" PointPos="0, 72" MRUDockPos="0, 48, 248, 75"/>
+				<BarInfo5 BarId="24" MRUWidth="32767" PointPos="1136, 34" MRUDockPos="752, 23, 978, 48"/>
+				<BarInfo6 BarId="26" MRUWidth="32767" PointPos="1240, 34" MRUDockPos="832, 23, 912, 48"/>
+				<BarInfo7 BarId="27" MRUWidth="32767" PointPos="791, 72" MRUDockPos="604, 48, 1210, 72"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="12" Id1="1" Id3="26" Id4="24" Id5="21" Id6="23" Id7="20" Id9="27" Id10="22"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<MainFrame WinPos="LAAAAAIAAAADAAAAAIP//wCD/////////////2ABAAAjAAAAgAcAABIEAAA="/>
+	<ChannelSetting>
+		<Channel LastActive="1" ChannelCode="QuickSearchResult.ALL" ChannelWinPos="LAAAAAIAAAADAAAA///////////3////2v///wAAAAAAAAAAtgQAAMcBAAA=">
+			<MainList>
+				<ReportCtrl Schema="42" FreezeColumnsCount="3" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" Alignment="1" StaticWidth="12" AutoWidth="12" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="35" AutoWidth="35" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="100" AutoWidth="100" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="1" StaticWidth="30" AutoWidth="30" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="1" StaticWidth="80" AutoWidth="80" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="49" InternalName="" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="50" InternalName="" Alignment="2" StaticWidth="45" AutoWidth="45" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="6" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="9" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="10" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="11" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="12" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="13" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="14" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="15" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="16" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="17" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="46" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="7" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="18" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="22" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="25" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="27" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="42" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="43" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="44" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="45" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="8" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="19" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="20" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="21" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="23" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="24" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="26" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="28" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="29" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="30" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="31" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="32" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="33" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="34" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="35" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="36" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="37" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="38" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="40" InternalName="" Visible="0" Alignment="1" StaticWidth="150" AutoWidth="150" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="39" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="41" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="47" InternalName="" Visible="0" Alignment="1" StaticWidth="25" AutoWidth="25" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="48" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="27" Expanded="0"/>
+						<Column ItemIndex="51" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" Column0="2" InternalName0=""/>
+					</Columns>
+					<Header AutoColumnSizing="0" ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MainList>
+			<PaneLayout>
+				<Summary Panes="2" TopContainer="1" Client="2"/>
+				<Pane-1 Type="2" Horiz="1" Panes="1" Pane-1="2"/>
+				<Pane-2 Type="4"/>
+			</PaneLayout>
+			<CommandBars Schema="42">
+				<Layout Visible="0">
+					<DockState Version="42" ScreenSize="1536, 864" Count="2">
+						<BarInfo0 BarId="121" Visible="0" MRUWidth="32767"/>
+						<BarInfo1 BarId="141" Visible="0" MRUWidth="32767"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="5" Id1="121" Id3="141"/>
+					</DockBars>
+				</Layout>
+			</CommandBars>
+		</Channel>
+		<Channel ChannelCode="_MarketScanner.MY" ChannelWinPos="LAAAAAAAAAABAAAA///////////3////2v///yAAAAAgAAAA1gQAAM0BAAA=">
+			<MainList>
+				<ReportCtrl Schema="42" FreezeColumnsCount="3" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" Alignment="1" StaticWidth="92" AutoWidth="92" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="35" AutoWidth="35" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="133" AutoWidth="133" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="1" StaticWidth="30" AutoWidth="30" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="1" StaticWidth="80" AutoWidth="80" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="49" InternalName="" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="6" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="9" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="10" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="11" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="12" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="13" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="14" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="15" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="16" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="17" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="46" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="7" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="18" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="20" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="22" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="24" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="25" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="26" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="27" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="28" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="29" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="30" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="31" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="32" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="33" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="34" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="42" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="43" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="44" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="45" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="50" InternalName="" Visible="0" Alignment="2" StaticWidth="69" AutoWidth="69" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="8" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="19" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="21" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="23" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="35" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="36" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="37" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="38" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="40" InternalName="" Visible="0" Alignment="1" StaticWidth="150" AutoWidth="150" HeaderAlignment="1" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="39" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="41" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="47" InternalName="" Visible="0" Alignment="1" StaticWidth="25" AutoWidth="25" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="48" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="51" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" Column0="34" InternalName0=""/>
+					</Columns>
+					<Header AutoColumnSizing="0" ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MainList>
+			<PaneLayout>
+				<Summary Panes="8" TopContainer="3" Client="8"/>
+				<Pane-1 Type="0" DockingCX="469" DockingCY="235" Title="\n\n" ID="3733" Options="525" DockingHolder="5" LastHolder="5"/>
+				<Pane-2 Type="0" DockingCX="156" DockingCY="235" Title="\n\n" ID="2833" Options="525" DockingHolder="6" LastHolder="6"/>
+				<Pane-3 Type="2" DockingCY="810" Panes="2" Pane-1="4" Pane-2="7"/>
+				<Pane-4 Type="2" DockingCX="469" DockingCY="469" Horiz="1" Panes="2" Pane-1="5" Pane-2="6"/>
+				<Pane-5 Type="1" DockingCX="469" DockingCY="235" Panes="1" Selected="1" Pane-1="1"/>
+				<Pane-6 Type="1" DockingCX="156" DockingCY="235" Panes="1" Selected="2" Pane-1="2"/>
+				<Pane-7 Type="2" Horiz="1" Panes="1" Pane-1="8"/>
+				<Pane-8 Type="4"/>
+			</PaneLayout>
+			<CommandBars Schema="42">
+				<Layout Visible="0">
+					<DockState Version="42" ScreenSize="1536, 864" Count="4">
+						<BarInfo0 BarId="121" Visible="0" MRUWidth="32767"/>
+						<BarInfo1 BarId="141" Visible="0" MRUWidth="32767"/>
+						<BarInfo2 MRUWidth="32767"/>
+						<BarInfo3 MRUWidth="32767" PointPos="773, 0" MRUDockPos="618, 0, 1236, 30"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="5" Id1="121" Id3="141"/>
+					</DockBars>
+				</Layout>
+			</CommandBars>
+			<FilterSetting Name="Category">
+				<Filter FilterType="class CSelectionFilter" Name="Instrument Type" Description="All counters with the specified type." Active="1" SelectIndex="0">
+					<Selection Description="Stock" Formula="&lt;EQ&gt;&lt;FieldID&gt;36&lt;/FieldID&gt;&lt;StrVal&gt;S&lt;/StrVal&gt;&lt;/EQ&gt;"/>
+					<Selection Description="Warrant" Formula="&lt;EQ&gt;&lt;FieldID&gt;36&lt;/FieldID&gt;&lt;StrVal&gt;W&lt;/StrVal&gt;&lt;/EQ&gt;"/>
+				</Filter>
+				<Filter FilterType="class CRangeFilter" Name="Last Done Price" Description="Last traded price." Active="1" Formula="&lt;FieldID&gt;41&lt;/FieldID&gt;">
+					<MinVal Name="LowerBound" Scale="1.000000" Precisions="3" CurValue="0.500000"/>
+					<MaxVal Name="UpperBound" Scale="1.000000" Precisions="3" CurValue="2.000000"/>
+				</Filter>
+				<Filter FilterType="class CStringFilter" Name="Instrument Name" Description="All counters contain the specified string." Active="1" Field="32" SearchStr="[s]"/>
+				<Filter FilterType="class CRangeFilter" Name="% Change" Description="Percentage price change today." Active="1" Formula="&lt;FieldID&gt;71&lt;/FieldID&gt;">
+					<MinVal Name="LowerBound" Scale="1.000000" Precisions="2" CurValue="0.500000" Posfix="%"/>
+					<MaxVal Name="UpperBound" Scale="1.000000" Precisions="2" CurValue="4.500000" Posfix="%"/>
+				</Filter>
+				<Filter FilterType="class CRangeFilter" Name="Volume" Description="Traded volume today." Active="1" Formula="&lt;FieldID&gt;81&lt;/FieldID&gt;">
+					<MinVal Name="LowerBound" Scale="100.000000" Precisions="0" CurValue="100000.000000" Posfix=" (x 100) Shares"/>
+					<MaxVal Name="UpperBound" Scale="100.000000" Precisions="0" Posfix=" (x 100) Shares"/>
+				</Filter>
+				<Filter FilterType="class CRangeFilter" Name="Issued Shares (M)" Description="Number of authorized shares that is sold to and held by shareholders or public." Active="1" Formula="&lt;FieldID&gt;157&lt;/FieldID&gt;">
+					<MinVal Name="LowerBound" Scale="1000000.000000" Precisions="1" Posfix="M"/>
+					<MaxVal Name="UpperBound" Scale="1000000.000000" Precisions="1" CurValue="2000000000.000000" Posfix="M"/>
+				</Filter>
+			</FilterSetting>
+		</Channel>
+		<Channel ChannelCode="*9WL181403" ChannelWinPos="LAAAAAAAAAABAAAA///////////3////2v///4AAAACAAAAA6AQAAC0CAAA=">
+			<MainList>
+				<ReportCtrl Schema="42" FreezeColumnsCount="3" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" Alignment="1" StaticWidth="12" AutoWidth="12" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="35" AutoWidth="35" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" StaticWidth="100" AutoWidth="100" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="47" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="1" StaticWidth="30" AutoWidth="30" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="1" StaticWidth="80" AutoWidth="80" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="40" InternalName="" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="43" InternalName="" Alignment="2" StaticWidth="45" AutoWidth="45" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="6" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="9" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="10" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="11" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="37" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="12" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="13" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="14" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="15" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="16" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="17" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="19" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="20" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="21" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="23" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="24" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="25" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="26" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="27" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="28" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="29" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="30" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="31" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="32" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="33" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="34" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="35" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="36" InternalName="" StaticWidth="80" AutoWidth="80" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="7" InternalName="" Visible="0" Alignment="2" StaticWidth="69" AutoWidth="69" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="8" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="22" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="18" InternalName="" Visible="0" Alignment="1" StaticWidth="38" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="38" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="39" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="41" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="42" InternalName="" Visible="0" Alignment="2" StaticWidth="63" AutoWidth="63" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="44" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="45" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="46" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<SortOrder Count="1" Column0="10" InternalName0=""/>
+					</Columns>
+					<Header AutoColumnSizing="0" ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MainList>
+			<PaneLayout>
+				<Summary Panes="2" TopContainer="1" Client="2"/>
+				<Pane-1 Type="2" Horiz="1" Panes="1" Pane-1="2"/>
+				<Pane-2 Type="4"/>
+			</PaneLayout>
+			<CommandBars Schema="42">
+				<Layout Visible="0">
+					<DockState Version="42" ScreenSize="1536, 864" Count="4">
+						<BarInfo0 BarId="121" Visible="0" MRUWidth="32767"/>
+						<BarInfo1 BarId="101" MRUWidth="32767"/>
+						<BarInfo2 BarId="102" MRUWidth="32767" PointPos="889, 0" MRUDockPos="711, 0, 1422, 28"/>
+						<BarInfo3 BarId="103" MRUWidth="32767" PointPos="1048, 0" MRUDockPos="886, 0, 1060, 30"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="7" Id1="121" Id3="103" Id4="102" Id5="101"/>
+					</DockBars>
+				</Layout>
+			</CommandBars>
+		</Channel>
+		<Channel ChannelCode="*9WL149210" ChannelWinPos="LAAAAAAAAAABAAAA///////////3////2v///2AAAABgAAAAyAQAAA0CAAA=">
+			<MainList>
+				<ReportCtrl Schema="42" FreezeColumnsCount="3" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" Alignment="1" StaticWidth="12" AutoWidth="12" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="35" AutoWidth="35" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" StaticWidth="100" AutoWidth="100" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="47" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="1" StaticWidth="30" AutoWidth="30" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="1" StaticWidth="80" AutoWidth="80" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="40" InternalName="" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="43" InternalName="" Alignment="2" StaticWidth="45" AutoWidth="45" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="6" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="9" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="10" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="11" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="37" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="12" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="13" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="14" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="15" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="16" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="17" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="19" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="20" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="21" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="23" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="24" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="25" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="26" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="27" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="28" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="29" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="30" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="31" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="32" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="33" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="34" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="35" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="36" InternalName="" StaticWidth="80" AutoWidth="80" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="7" InternalName="" Visible="0" Alignment="2" StaticWidth="69" AutoWidth="69" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="8" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="22" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="18" InternalName="" Visible="0" Alignment="1" StaticWidth="38" AutoWidth="38" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="38" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="39" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="41" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="42" InternalName="" Visible="0" Alignment="2" StaticWidth="63" AutoWidth="63" HeaderAlignment="2" OldVisibleIndex="36" Expanded="0"/>
+						<Column ItemIndex="44" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="45" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="46" InternalName="" Visible="0" Alignment="1" HeaderAlignment="1" Expanded="0"/>
+						<SortOrder Count="1" Column0="10" InternalName0=""/>
+					</Columns>
+					<Header AutoColumnSizing="0" ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MainList>
+			<PaneLayout>
+				<Summary Panes="2" TopContainer="1" Client="2"/>
+				<Pane-1 Type="2" Horiz="1" Panes="1" Pane-1="2"/>
+				<Pane-2 Type="4"/>
+			</PaneLayout>
+			<CommandBars Schema="42">
+				<Layout Visible="0">
+					<DockState Version="42" ScreenSize="1536, 864" Count="4">
+						<BarInfo0 BarId="121" Visible="0" MRUWidth="32767"/>
+						<BarInfo1 BarId="101" MRUWidth="32767"/>
+						<BarInfo2 BarId="102" MRUWidth="32767" PointPos="889, 0" MRUDockPos="711, 0, 1422, 28"/>
+						<BarInfo3 BarId="103" MRUWidth="32767" PointPos="1048, 0" MRUDockPos="886, 0, 1060, 30"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="7" Id1="121" Id3="103" Id4="102" Id5="101"/>
+					</DockBars>
+				</Layout>
+			</CommandBars>
+		</Channel>
+		<Channel ChannelCode="__TAMarketScan_Price: New 52 Week High.MY" ChannelWinPos="LAAAAAAAAAABAAAA///////////3////2v///0AAAABAAAAAqAQAAO0BAAA=">
+			<MainList>
+				<ReportCtrl Schema="42" FreezeColumnsCount="3" ShowIconView="0">
+					<Columns>
+						<Column ItemIndex="0" InternalName="" Alignment="1" StaticWidth="12" AutoWidth="12" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="1" InternalName="" Alignment="1" StaticWidth="35" AutoWidth="35" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="2" InternalName="" StaticWidth="100" AutoWidth="100" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="4" InternalName="" Alignment="1" StaticWidth="30" AutoWidth="30" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="5" InternalName="" Alignment="1" StaticWidth="80" AutoWidth="80" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="49" InternalName="" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="50" InternalName="" Alignment="2" StaticWidth="45" AutoWidth="45" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="6" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="9" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="10" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="11" InternalName="" Alignment="2" StaticWidth="60" AutoWidth="60" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="12" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="13" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="14" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="15" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="16" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="17" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="46" InternalName="" Alignment="1" StaticWidth="120" AutoWidth="120" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="7" InternalName="" Alignment="2" StaticWidth="55" AutoWidth="55" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="18" InternalName="" Alignment="2" StaticWidth="80" AutoWidth="80" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="22" InternalName="" Alignment="2" StaticWidth="50" AutoWidth="50" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="25" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="27" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="42" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="43" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="44" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="45" InternalName="" Alignment="2" StaticWidth="70" AutoWidth="70" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="3" InternalName="" Visible="0" StaticWidth="50" AutoWidth="50" HeaderAlignment="0" Expanded="0"/>
+						<Column ItemIndex="8" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="19" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="20" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="21" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="23" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="24" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="26" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="28" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="29" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="30" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="31" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="32" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="33" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="34" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="35" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="36" InternalName="" Visible="0" Alignment="2" StaticWidth="88" AutoWidth="88" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="37" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="38" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="40" InternalName="" Visible="0" Alignment="1" StaticWidth="150" AutoWidth="150" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="39" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="41" InternalName="" Visible="0" Alignment="2" StaticWidth="75" AutoWidth="75" HeaderAlignment="2" Expanded="0"/>
+						<Column ItemIndex="47" InternalName="" Visible="0" Alignment="1" StaticWidth="25" AutoWidth="25" HeaderAlignment="1" Expanded="0"/>
+						<Column ItemIndex="48" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" OldVisibleIndex="27" Expanded="0"/>
+						<Column ItemIndex="51" InternalName="" Visible="0" Alignment="2" StaticWidth="100" AutoWidth="100" HeaderAlignment="2" Expanded="0"/>
+						<SortOrder Count="1" Column0="1" InternalName0=""/>
+					</Columns>
+					<Header AutoColumnSizing="0" ShowItemsInGroups="0"/>
+				</ReportCtrl>
+			</MainList>
+			<PaneLayout>
+				<Summary Panes="2" TopContainer="1" Client="2"/>
+				<Pane-1 Type="2" Horiz="1" Panes="1" Pane-1="2"/>
+				<Pane-2 Type="4"/>
+			</PaneLayout>
+			<CommandBars Schema="42">
+				<Layout Visible="0">
+					<DockState Version="42" ScreenSize="1536, 864" Count="2">
+						<BarInfo0 BarId="121" Visible="0" MRUWidth="32767"/>
+						<BarInfo1 BarId="141" MRUWidth="32767"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="5" Id1="121" Id3="141"/>
+					</DockBars>
+				</Layout>
+			</CommandBars>
+		</Channel>
+	</ChannelSetting>
+</Settings>

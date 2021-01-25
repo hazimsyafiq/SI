@@ -1,0 +1,18 @@
+<Program Name="Spider" IsMainView="true">
+<FullName>Spider Setup</FullName>
+<ExpiryDate/>
+<Description><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P>Gabungan&nbsp;indicator Spider yang overlay di chart.</P>
+<OL>
+  <LI>EMA(6) 
+  <LI>EMA(9) 
+  <LI>Parabolic SAR(0.02,0.02,0.2) 
+  <LI>Bollinger Band(9) 
+  <LI>Bollinger Band(14)</LI></OL></BODY></HTML>]]></Description>
+<Code IsEnabled="false">SrZWJ7qgKU0ZNTpJVSPHOUihVy7fPRXiC41+hTelRKZiwJG6akoXSq6E0iDBkI5ZFYuLbRqKCCWfuIRtUdstsK8DFTQLhI9qnftC5WPQZRY+Ojs4AjGedrRsTXWUWcacKXGcqBk2u0FtNiehnhTnhSG9D42A1z0h4aRV5llnsrG2/OHEbwS8LBzd+v7nDtH3HjP+qNTu7M/Bv3FwEAqtcKLiYpibgn5jSsWxbK6SbYtdx1akm/XizofN70JaQYAwa2casm3Z2OtWVEFCazSh/Ivb8Vw+LnSnS1N2YXajLgM2/YEbn31uYfypvzehs9lVtVugBCsO8REInieotDenrUdB3VhB95JPR7HDQYJ7s5DfHiLI3Q42ObDQhKZNO8p0ZScqfJIPeGf+zilKh54DMiI5zWef60jGsiVMpkQ0wrrXfsRzLcl6vzW0P3VDOZaLjLp6R5shVhAvrq61nN6Yajo8+wWLRNlTQ5BAeC4CXaGnXLqjKWbfJIyRu9WLU0ufchUjKSuZ09KYhT2saVzFNjBPfRCTYt66qjYUtFZlUct7X9SqSDUL17OV4sdhsHOAax8NSUJMqBkN1rMN8palaQaNrKIqaakySSnghUZX14pewUhv8skNWHlQoFPGaSZow89a0nLB68hHXVbrz/tDdAskiB2wp/ZnOX+yP4iaeBk+5wRXlCQ1S56Rl0Tbs1yvECc5Z29RsrCuS8NvNXm4gslyJkic6aMhjsGFknZVuquI0Q==</Code>
+<Params/>
+</Program>
